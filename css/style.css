@@ -1,0 +1,282 @@
+body{
+	background-color: #F7F9FA;
+}
+.navbar-nav a{
+	font-weight: 20px;
+}
+
+
+.banner-section{
+	margin-top: 1em;
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	padding-top:200px;
+	color: #fff;
+}
+
+@media only screen and (min-width: 768px)
+{
+  h1 strong{
+  font-size: 40px !important;
+  }  
+}
+
+@media only screen and (min-width: 992px){
+ h1 strong{
+  font-size: 65px !important;
+  } 
+}
+@media only screen and (min-width: 1200px){
+ h1 strong{
+  font-size: 90px !important;
+  } 
+}
+
+
+
+hr{
+	border: 1px solid #15a4fa;
+}
+
+.btn{
+	border-color: #15a4fa;
+	padding: 0.450rem 1.75rem;
+}
+.dropdown{
+	    padding-top: 100px;
+}
+.dropdown a{
+	color: #fff;
+}
+.text-section{
+	padding-top: 40px;
+}
+
+
+
+
+.logo-background{
+	color: #fff;
+	background: linear-gradient( to right,  #48baff 0%, #48baff 50%, #5fc3ff 50%, #5fc3ff 100%    );
+	height: 2em;
+	width: 35%;
+	padding: 15px 0;
+}
+h4{
+	margin-top: 20px;
+}
+
+
+
+
+.view-1 {
+  height: 100%;
+}
+
+
+
+.top-nav-collapse {
+  background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+
+}
+
+
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.cust-row{
+	
+margin-top: 25px;
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.custom-form{
+	
+background: #000000d9;
+}
+
+.form-section{
+	background-image: url('../images/contact-bd.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+	margin-top: 4em;
+	height: 400px;
+}
+
+.form-section h1{
+    margin-top: 1em;
+}
+
+.form-section p{}
+
+.cust-form{}
+
+.full-name{
+	margin: 5px;
+}
+.email{
+	margin: 5px;
+}
+.message{
+	margin: 5px;
+}
+
+
+
+.cust-copyright{
+	    flex: 0 0 65%;
+    max-width: 65%;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.footer-social{padding: 5px;}
+.footer-social ul{
+}
+.footer-social ul li{padding: 10px;background: #15A4FA;transition: .6s;border: 1px solid #15a4fa;border-radius: 4px;justify-content: left;display: inline-block;width: 50px;height: 50px;line-height: 35px;}
+.footer-social ul li a i{
+    font-size: 15px;
+    z-index: 1; 
+}
+.footer-social ul li a{
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    align-items: center;
+}
+
+    
+}
+.footer-social ul li a.facebook{}
+
+.footer-social ul li a.facebook:hover{
+    color: #3b5a9a;
+    
+}
+.footer-social ul li a.twitter:hover{
+    color: #11465a;
+}
+.footer-social ul li a.insta:hover{
+    color: #e44a40;
+    
+}
+.footer-social ul li a.youtube:hover{
+    color: #ef2a1c;
+    
+}
+
+@media only screen and (min-width: 500px){
+  .cner {
+    position: relative;
+    width: 75%;
+  }
+
+}
+
+
+@media only screen and (min-width: 560px){
+  .cner {
+    position: relative;
+    width: 78%;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px){
+
+  .cner {
+    position: relative;
+    width: 100%;
+  }
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cner:hover .image {
+  opacity: 0.2;
+}
+
+.cner:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #15a4fa;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+
+.logo-background {
+    color: #fff;
+    background: linear-gradient(
+ to right, 
+ #48baff 0%, 
+ #48baff 50%, 
+ #5fc3ff 50%, 
+ #5fc3ff 100%
+ );
+    height: 120px;
+    width: 100%;
+    padding-top: 27%;}
+
+} 
+
+
+.navbar-light .navbar-toggler {
+  margin-left: auto;
+}
